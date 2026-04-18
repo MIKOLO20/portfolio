@@ -1034,6 +1034,20 @@ button {
         display: flex;
     }
 
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block;
+        padding: var(--spacing-sm) 0;
+        width: 100%;
+    }
+
+    .nav-link::after {
+        display: none;
+    }
+
     .hamburger {
         display: flex;
     }
